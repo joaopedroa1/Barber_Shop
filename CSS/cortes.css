@@ -1,0 +1,64 @@
+.cortes_recomendados{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.media{
+    width: 500px;
+    
+}
+
+.estrela{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    margin-left: 585px;
+}
+
+.av{
+    height: 20px;
+    width: 600px;
+    background-color: goldenrod;
+    margin-left: 60px;
+    border-radius: 40px;
+}
+
+.av4{
+    height: 20px;
+    width: 300px;
+    background-color: goldenrod;
+    margin-left: 60px;
+    border-radius: 40px;
+}
+
+.av3{
+    height: 20px;
+    width: 100px;
+    background-color: goldenrod;
+    margin-left: 60px;
+    border-radius: 40px;
+}
+
+.av2{
+    height: 20px;
+    width: 50px;
+    background-color: goldenrod;
+    margin-left: 60px;
+    border-radius: 40px;
+}
+
+.av1{
+    height: 20px;
+    width: 30px;
+    background-color: goldenrod;
+    margin-left: 70px;
+    border-radius: 40px;
+}
+
+.nota{
+    margin-left: 20px;
+}

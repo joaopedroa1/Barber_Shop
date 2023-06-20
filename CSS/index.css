@@ -1,0 +1,91 @@
+@import "sobrenos.css";
+@import "agendar.css";
+@import "produtos.css";
+@import "cortes.css";
+@import "info.css";
+header{
+    height: 108px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 140px;
+
+}
+
+.texto_cabecalho{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bolder;
+    color: black;
+    margin-right: 75px;
+}
+.texto_cabecalho:hover{
+    text-decoration: wavy;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.linha{
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login{
+    font-size: 34px;
+    padding: 20px;
+    margin-right: 75px;
+    text-decoration: none;
+    background-color: goldenrod;
+    border-radius: 20px;
+    font-family:  'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.sobre_nos{
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+    margin-top: 75px;
+}
+
+.b1{
+    grid-column: 2;
+    width: 400px;
+    height: 350px;
+    grid-row: 2;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 45px;
+    box-shadow: 
+    15.1px 15.1px 0px rgba( 218, 165, 32,1),
+    0px 0px 0px rgba( 218, 165, 32, 1),
+    0px 0px 0px rgba( 218, 165, 32, 1),
+    0px 0px 0px rgba( 218, 165, 32, 1),
+    0px 0px 0px rgba( 218, 165, 32, 1),
+    0px 0px 0px rgba(218, 165, 32, 1)
+  ;
+}
+
+hgroup{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+@media (max-width: 610px){
+    header{
+        display: none;
+    }
+    .b1{
+        display: none;
+    }
+    .boxes{
+        display: block;
+    }
+}

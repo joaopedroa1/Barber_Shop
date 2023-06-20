@@ -1,0 +1,29 @@
+.final{
+    margin-top: 150px;
+    display: block;
+    grid-template-columns: 3;
+    grid-template-rows: 6;
+    background-color: goldenrod;
+    justify-content: center;
+}
+
+.info{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.i1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.suporte{
+    margin-bottom: 48px;
+}
+
+.avalie{
+    margin-top: 20px;
+}

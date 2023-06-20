@@ -1,0 +1,23 @@
+.titulo{
+    font-size: 36px;
+    margin-left: 96px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 96px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.tema{
+    color: goldenrod;
+    font-family: 'Poppins', sans-serif;
+}
+
+.marca{
+    background:-webkit-linear-gradient(90deg, rgba(254,243,1,1) 1%, rgba(254,234,1,1) 26%, rgba(254,196,1,1) 57%, rgba(254,128,1,1) 88%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
